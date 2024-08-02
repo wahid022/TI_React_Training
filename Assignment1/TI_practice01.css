@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    background-color: #152238;
+    color: white;
+}
+
+.head-foot-container
+{
+    height: 100%;
+    width: 70%;
+}
+
+.main-body-container
+{
+    width: 50%;
+    margin-left: 3rem;
+}
+
+.img-container img
+{
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+header,footer
+{
+    /* margin-top: -16px; */
+    height: 4rem;
+    width: 100%;
+    background-color: #23395d;
+}
+
+footer{
+    height: 7.5rem;
+}
+
+.head-foot-container ul{
+    margin-top: 2px;
+    padding-top: 20px;
+}
+.head-foot-container ul li {
+    display: inline-block;
+    padding-right: 2rem;
+}
+
+a{
+    /* text-decoration: none; */
+    color: white;
+}

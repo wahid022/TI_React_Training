@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Document</title>
+</head>
+
+<body>
+        <p class="para">Para-3</p>
+        <p class="para">Para-1 Wahi is back on @wahi_fitness Follow On Insta </p> 
+        <p class="para">Para-2</p> 
+        <input type="text" name="wahi" value="Wahi is back"> 
+
+        <div class="div-1">
+
+        </div>
+
+
+    <script>
+        
+        // let DOMSlct=document.getElementsByName('wahi');
+        // console.log(DOMSlct[0].value);
+        // DOMSlct[0].value="I love u Saba";
+
+        const DomSlct=document.getElementsByClassName('div-1');
+
+        let ele=document.createElement('p');
+        ele.innerHTML="New Created Element..";
+
+        DomSlct[0].appendChild(ele);
+    </script>
+</body>
+
+</html>

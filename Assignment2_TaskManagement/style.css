@@ -1,0 +1,88 @@
+#task-list li:nth-child(2n){
+    background-color: rgb(176, 176, 174);
+    /* color: white; */
+}
+
+#task-list li:nth-child(2n+1){
+    background-color: rgb(148, 158, 148);
+    /* color: rgb(193, 185, 185); */
+}
+
+
+
+/* Body Background */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Card Styles */
+.card {
+    border-radius: 15px;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Add Task Button */
+#add-task {
+    background-color: #007bff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#add-task:hover {
+    background-color: #0056b3;
+}
+
+/* Input and Select Fields */
+.input-group input,
+.input-group select {
+    border-radius: 20px;
+}
+
+#search-task {
+    border-right: 0;
+}
+
+.input-group .form-select {
+    border-left: 0;
+}
+
+/* List items container  */
+.list-group-item {
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+
+/* Styling the badge  */
+.badge {
+    font-size: 0.9rem;
+    padding: 5px 10px;
+}
+
+/* Styling the buttons */
+.edit-btn {
+    background-color: #ffc107;
+    border: none;
+}
+
+.edit-btn:hover {
+    background-color: #e0a800;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    border: none;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
